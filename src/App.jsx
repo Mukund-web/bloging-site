@@ -1,6 +1,9 @@
 import React from 'react'
 
 const App = () => {
+
+  console.log(import.meta.env.VITE_APPWRITE_URL)
+
   return (
     <div className = "flex items-center justify-center h-screen w-full bg-fuchsia-900">
       <h1 className = " text-white text-4xl font-bold">BLOG site with appwrite</h1>
